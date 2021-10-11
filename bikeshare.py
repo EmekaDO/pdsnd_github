@@ -5,7 +5,7 @@ import datetime as dt
 import click
 import os
 
-
+# Data
 CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
              'washington': 'washington.csv'}
@@ -352,4 +352,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
